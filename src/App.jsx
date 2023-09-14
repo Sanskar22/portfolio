@@ -6,7 +6,6 @@ import {
   Experience,
   Tech,
   Works,
-  Feedbacks,
   Contact,
 } from "./components/components";
 import { StarsCanvas } from "./components/components/canvas";
@@ -23,7 +22,6 @@ function App() {
           <Experience />
           <Tech />
           <Works />
-          {/* <Feedbacks /> */}
           <div className="realtive z-0 pb-10">
             <Contact />
             <StarsCanvas />
